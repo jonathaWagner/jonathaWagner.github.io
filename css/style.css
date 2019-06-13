@@ -1,0 +1,668 @@
+/*Primeira página*/
+body{
+    margin: 0px;
+    padding:0px;
+	box-sizing:border-box;
+	font-family: 'Questrial', sans-serif;
+}
+.main{
+    min-height: calc(100vh - 70px);
+    height: 100%;
+    margin:3%;
+    box-shadow: 0px 0px 6px #000;
+    background-color: #f9f9f9a1;
+}
+/*Refernte a barra de navegação*/
+.navbar {
+    overflow: hidden;
+    background-color: #060505;
+    padding-left: 3%;
+
+}
+.navbar a {
+    float: left;
+    /*16px equivale 1rem*/
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    padding-top: 1.8rem;
+    padding-right: 1rem;
+    text-decoration: none;  
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    /*16px equivale 1rem*/
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: white;
+    /*padding-top: 14px 16px;*/
+    padding-top: 1.8rem;
+    padding-right: 1rem;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #2b4daa;
+    border-radius: 4px;
+    text-shadow: 1px 0px 5px green;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: greenyellow;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*FIM*/
+.img{
+    float: left;
+    height: 20%;
+    width: 32%;
+    border-radius:80%;
+}
+.hobbies{
+    
+    width:50%;
+    height:50%;
+}
+.tabela{
+    
+    border: none;
+    margin: auto;
+    height: 50%;
+}
+.titulo_tabelaHobbies{
+    padding-top: 5%;
+}
+.descricao{
+    padding: 0% 7% 0% 7%;
+    font-family: times new roman;
+    text-align: justify;
+    /*20 px equivale 1.25rem*/
+    font-size: 1.25rem;
+}
+.descricao1{
+    font-family: times new roman;
+    margin-bottom:100px;
+    text-align: justify;
+    padding: 0% 7% 0% 7%;
+    /*20 px equivale 1.25rem */
+    font-size: 1.25rem;
+}
+.titulo{
+    font-family: sans-serif;
+    padding: 0% 7% 0% 7%;
+}
+/* Rodapé*/
+#footer{
+    /*50 px equivale 3.25rem*/
+    height: 4rem;
+    width: 100%;
+    background-color:#060505;
+    text-align: center;
+    font-family: times new roman;
+    
+}
+#footer p{
+    padding-top: 1.25rem;
+    font-family: times new roman;
+    text-align: justify-all;
+    /*18 px equivale 1.125rem*/
+    font-size:1.125rem;
+    color:white;
+}
+/*Fim da primeira página*/
+
+/*Página 3rs_Reduzir*/
+.texto_3rs{
+    
+    font-family: arial;
+    text-align: center;
+    color: green;
+    font-size:20px;
+}
+.texto_introdutorio{
+    
+    font-style: italic;
+    padding: 0% 7% 0% 7%;
+    text-align: justify;
+    font-family: times new roman;
+    /*20 px equivale 1.25rem */
+    font-size: 1.25rem;
+}
+.titulo_topico{
+    font-family: sans-serif;
+    padding:  0px 5rem 0px 5rem;
+    font-size: 1rem;
+}
+ol{
+    /*100px equivale 6.25rem*/
+    padding-right: 6.25rem;
+    padding-left: 6.25rem;
+    text-align: justify;
+    /*18 px equivale 1.125rem*/
+    font-size:1.125rem;
+}
+.img_mercado{
+   
+    list-style-image: url('../img/icons8-loja-30.png');
+}
+.img_mercado:hover{
+    color:lightcoral;
+}
+.img_carro{
+    list-style-image: url('../img/icons8-carro-48.png');
+}
+.img_carro:hover{
+    color:magenta;
+}
+.img_celular{
+    list-style-image: url('../img/icons8-movel-48.png');
+}
+.img_celular:hover{
+    color:darkblue;
+}
+/*Fim da pagina 3rsReduzir*/
+
+/*Começo da pagina 3rsReciclar*/
+.tabela_animada{
+    /*100px equivale 6.25rem*/
+    margin: auto;
+    /*padding-left: 10.25rem;*/
+    height:250%;
+}
+.descricao_tabela{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:  1rem;
+}
+.imagensTabela{
+    width:12.5rem;
+    height:12.5rem;
+}
+.empuraBotao{
+    padding-bottom: 1rem;
+}
+.botao1{
+    margin-left: 25.9%;
+}
+.botao1:hover{
+    color: green;
+}
+.botao2:hover{
+    color: darkgray;
+}
+/* Fim da página 3rsReutilizar*/
+
+/*Início da página 3rsReciclar*/
+.link_locaisReciclagem{
+    text-decoration: none;
+    color:green;
+}
+#coleta_seletiva{
+    padding-left: 6.5%;
+}
+.coleta_seletiva1{
+    list-style: url('../img/coleta_seletiva2.jpg');
+}
+.coleta_seletiva2{
+    list-style: url('../img/coleta_seletiva2.jpg');
+}
+.coleta_seletiva3{
+    list-style: url('../img/coleta_seletiva2.jpg');
+}
+.coleta_seletiva4{
+    list-style: url('../img/coleta_seletiva2.jpg');
+}
+.coleta_seletiva1:hover{
+    color:red;
+}
+.coleta_seletiva2:hover{
+    color:darkblue;
+}
+.coleta_seletiva3:hover{
+    color:#cc0;
+}
+.coleta_seletiva4:hover{
+    color:darkgreen;
+}
+#video{
+    padding-left:25%;
+}
+.video{
+    /*383 px equivale 20.8125rem*/
+    height: 20.8125rem;
+    /*672 px equivale 42rem*/
+    width: 37rem;
+    
+}
+/*Fim da terceira e última página sobre 3Rs
+
+/*Primeira página DevTools*/
+.texto_DevTools{
+    font-family: arial;
+    text-align: center;
+    color: darkblue;
+    /*20 px equivale 1.125rem*/
+    font-size:1.25rem;
+}
+.texto_devTools{
+    font-style: italic;
+    padding: 0% 7% 0% 7%;
+    text-align: justify;
+    font-family: times new roman;
+    /*20 px equivale 1.125rem*/
+    font-size:1.25rem;
+}
+.img_windows{
+    font-size: 1.125rem;
+    list-style-image: url('../img/icons8-logo-do-windows-48.png');
+    font-family: times new roman;
+}
+.img_mac{
+    font-size: 1.125rem;
+    list-style-image: url('../img/icons8-cliente-mac-48.png');
+    font-family: times new roman;
+}
+.textos{
+    font-weight: bold;
+    font-style: italic;
+    padding: 0% 7% 0% 7%;
+    text-align: justify;
+    font-family: times new roman;
+    /*20 px equivale 1.125rem*/
+    font-size:1.125rem;
+}
+.descricao_listaDef{
+    padding-left: 28%;
+    font-family: sans-serif;
+    font-size:1.25;
+}
+.menu_devTools{
+    padding: 0% 7% 0% 30%;
+    width: 40%;
+    height: 30%;
+    margin: auto;
+}
+.lista_defDevTools{
+    padding: 0% 7% 0% 7%;
+   /*20 px equivale 1.125rem*/
+    font-size:1.25rem;
+    font-family: times new roman;
+    font-style: italic;
+}
+dt{
+    font-weight: bold;
+}
+
+/*Pagina elements e console*/
+.img_elements{
+    padding-left: 17rem;
+    width:724px;
+    height:508.625px;
+}
+.textos1{
+    padding: 0% 7% 0% 7%;
+    font-size:1.25rem;
+    font-family: times new roman;
+    text-align: justify;
+}
+
+/*Pagina sources e network*/
+
+#videoSource{
+     padding-left:30%;;
+}
+.videoSource2{
+    /*383 px equivale 20.8125rem*/
+    
+    height: 20.8125rem;
+    /*672 px equivale 42rem*/
+    width: 37rem;
+}
+.titulo_topicoS{
+    font-family: sans-serif;
+    padding:  0px 5rem 0px 31rem;
+    font-size: 1rem;
+}
+#videoNetwork{
+     padding-left:30%;;
+}
+.videoNetwork2{
+    /*383 px equivale 20.8125rem*/
+    
+    height: 20.8125rem;
+    /*672 px equivale 42rem*/
+    width: 37rem;
+}
+
+
+
+/*Responsivo*/
+@media screen and (max-width: 767px){
+    /*Primeira página*/
+    .main{
+        min-height: calc(100vh - 70px);
+        height: 100%;
+        margin:6%;
+        box-shadow: 0px 0px 6px #000;
+        background-color: #f9f9f9a1;
+    }
+    /*Refernte a barra de navegação*/
+    .navbar {
+        overflow: hidden;
+        background-color: #060505;
+    }
+    .navbar a {
+        float: left;
+        /*16px equivale 1rem*/
+        font-size: 0.6rem;
+        color: white;
+        text-align: center;
+        /*padding: 14px 16px;*/
+        padding-top: 1rem;
+        padding-right: 1rem;
+        text-decoration: none;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    .dropdown .dropbtn {
+        /*16px equivale 1rem*/
+        font-size: 0.7rem;
+        border: none;
+        outline: none;
+        color: white;
+        /*padding-top: 14px 16px;*/
+        padding-top: 0.875rem;
+        padding-right: 1rem;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #2b4daa;
+        border-radius: 4px;
+        text-shadow: 1px 0px 5px green;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    .dropdown-content a:hover {
+        background-color: #ddd;
+        color: greenyellow;
+    }   
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /*FIM*/
+    .img{
+        float: left;
+        height: 20%;
+        width: 100%;
+        border-radius:80%;
+    }
+    .hobbies{
+        width:100%;
+        height:60%;
+    }
+    .tabela{    
+        border: none;
+        margin: auto;
+        height: 50%;
+    }
+    .titulo_tabelaHobbies{
+        padding-top: 5%;
+    }
+    .descricao{
+        padding: 0% 7% 0% 7%;
+        font-family: times new roman;
+        /*20 px equivale 1.25rem*/
+        font-size: 1.25rem;
+        text-align: justify;
+    }
+    .descricao1{
+        font-family: times new roman;
+        margin-bottom:100px;
+        text-align: justify;
+        padding: 0% 7% 0% 7%;
+        /*20 px equivale 1.25rem */
+        font-size: 1.25rem;
+        text-align: justify;
+    }
+    .titulo{
+        text-align: center;
+        font-family: sans-serif;
+        padding: 0% 7% 0% 7%;
+    }
+    /* Rodapé*/
+    #footer{
+        /*50 px equivale 3.25rem*/
+        height: 4rem;
+        width: 100%;
+        background-color:#060505;
+        text-align: center;
+        font-family: times new roman;
+    
+    }
+    #footer p{
+        padding-top: 1.125rem;
+        font-family: times new roman;
+        /*18 px equivale 1.125rem*/
+        font-size:0.900rem;
+        color:white;
+    }
+    /*Fim da primeira página*/
+    
+    /*Página 3rs_Reduzir*/
+    .texto_3rs{
+        font-family: arial;
+        text-align: center;
+        color: green;
+        font-size:1rem;
+    }
+    .texto_introdutorio{
+        font-style: italic;
+        padding: 0% 7% 0% 7%;
+        text-align: justify;
+        font-family: times new roman;
+        /*20 px equivale 1.25rem */
+        font-size: 1rem;
+    }
+    .titulo_topico{
+        text-align: center;
+        font-family: sans-serif;
+        padding: 0% 7% 0% 7%;
+        font-size: 0.9375rem;
+    }
+    ol{
+        /*100px equivale 6.25rem*/
+        padding-right: 0.25rem;
+        padding-left: 2.25rem;
+        text-align: justify;
+        /*18 px equivale 1.125rem*/
+        font-size:0.900rem;
+        padding: 0% 7% 0% 12%;
+    }
+    /*Fim da pagina 3rsReduzir*/
+
+    /*Começo da pagina 3rsReutilizar*/
+    .tabela_animada{
+        /*100px equivale 6.25rem*/
+        padding-left: 1.25rem; 
+        height:250%;
+    }
+    .imagensTabela{
+        width: 5.25rem;
+        height: 6.25rem;
+    }
+    .botao1{
+        margin-left: 10%;
+    }
+    /* Fim da página 3rsReutilizar*/
+
+    /*Início da página 3rsReciclar*/
+    #coleta_seletiva{
+        padding-left: 6.5%;
+    }
+    #video{
+        padding-left:13%;
+    }
+    .video{
+        /*383 px equivale 20.8125rem*/
+        height: 10rem;
+        /*672 px equivale 42rem*/
+        width: 15rem;
+    }
+    .empuraBotao{
+        padding-bottom: 1rem;
+    }
+    /*Fim da terceira e última página sobre 3Rs
+
+    
+    /*Primeira página DevTools*/
+    .texto_DevTools{
+        font-family: arial;
+        text-align: center;
+        color: darkblue;
+        /*20 px equivale 1.125rem*/
+        font-size:1rem;
+    }
+    .texto_devTools{
+        font-style: italic;
+        padding: 0% 7% 0% 7%;
+        text-align: justify;
+        font-family: times new roman;
+        /*20 px equivale 1.125rem*/
+        font-size:1rem;
+    }
+    .img_windows{
+        font-size: 0.7rem;
+    }
+    .img_mac{
+        font-size: 0.7rem;
+    }
+    .textos{
+        font-weight: bold;
+        font-style: italic;
+        padding: 0% 7% 0% 7%;
+        text-align: justify;
+        font-family: times new roman;
+        /*20 px equivale 1.125rem*/
+        font-size:0.875rem;
+    }
+    .descricao_listaDef{
+        padding-left: 3%;
+        font-family: sans-serif;
+        font-size:0.875rem;
+        text-align: center;
+    }
+    .menu_devTools{
+        padding: 0% 7% 0% 30%;
+        width: 40%;
+        height: 30%;
+        margin: auto;
+    }
+    .lista_defDevTools{
+        padding: 0% 7% 0% 7%;
+        /*20 px equivale 1.125rem*/
+        font-size:1.25rem;  
+        font-family: times new roman;
+        font-style: italic;
+    }
+    dt{
+        font-weight: bold;
+    }
+    .menu_devTools{
+        padding: 0% 7% 0% 7%;
+        width: 80%;
+        height: 30%;
+    }
+    .lista_defDevTools{
+        font-style: italic;
+        padding: 0% 7% 0% 7%;
+        /*20 px equivale 1.125rem*/
+        text-align: justify;
+        font-family: times new roman;
+        font-size:0.875rem;
+    }
+
+    /*Pagina elements e console*/
+    .img_elements{
+        padding-left: 0.25rem;
+        width:19rem;
+        height:19rem;
+    }
+    .textos1{
+        padding: 0% 7% 0% 7%;
+        font-size:1rem;
+        font-family: times new roman;
+        text-align: justify;
+    }
+    /*Pagina Source e Network*/
+    #videoSource{
+        padding-left:8%;
+    }
+    .videoSource2{
+        /*383 px equivale 20.8125rem*/
+        height: 10rem;
+        /*672 px equivale 42rem*/
+        width: 17rem;
+    }
+    .titulo_topicoS{
+        font-family: sans-serif;
+        padding: 0px 5rem 0px 5rem;
+        font-size: 0.875rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    #videoNetwork{
+        padding-left:8%;
+    }
+    .videoNetwork2{
+        /*383 px equivale 20.8125rem*/
+        height: 10rem;
+        /*672 px equivale 42rem*/
+        width: 17rem;
+        padding-bottom: 1rem;
+    }
+}

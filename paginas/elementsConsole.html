@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Jonatha Wagner da Silva Lima, Turma B"/>
+		<meta name="description" content="Projeto final"/>
+		<meta name="keywords" content="Projeto final, 3rs da sustentabilidade, Chrome DevTools"/>
+		<meta name="generator" content="Brackets"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<title>Elements e Console</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/icons8-chrome-500.png"/>
+		<link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+	</head>
+    <body>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">▾ Chrome DevTools</button>
+                <div class="dropdown-content">
+                    <a href="introducaoDevTools.html">Introdução DevTools</a>
+                    <a href="elementsConsole.html">Elements e Console</a>
+                    <a href="sourceNetwork.html">Source e Network</a>
+                </div>
+            </div>                        
+            <div class="dropdown">
+                <button class="dropbtn">▾ 3Rs da sustentabilidade</button>
+                <div class="dropdown-content">
+                    <a href="3rsReduzir.html">Reduzir</a>
+                    <a href="3rsReutilizar.html">Reutilizar</a>
+                    <a href="3rsReciclar.html">Reciclar</a>
+                </div>
+            </div>                   
+        </nav>
+        <div class="main">
+            <h1 class="texto_DevTools">Elements</h1>
+            <p class="texto_introdutorio">Como dito anteriormente, a aba <strong>Elements</strong> permite ao usuário e/ou desenvolvedor web, olhar como a página foi feita, ou seja, como cada elemento <strong>HTML</strong> foi específicado na hora do seu desenvolvimento, quando você estiver desenvolvendo páginas para web esta ferramenta será extremamente útil, pois com ela o você desenvolvedor poderá <strong>debugar</strong> a página para encontra possíveis divergiências</p>
+            <h4 class="titulo_topico">Como começar</h4>
+            <ol type="1">
+                <li>Windows</li>
+                    <ol type="I">
+                        <li class="img_windows">Pressione as teclas CTRL + SHIFT + C</li>
+                    </ol>
+                <li>MacBook</li>
+                <ol type="I">
+                    <li class="img_mac">pressione as teclas CMD + SHIFT + C</li>
+                </ol>   
+            </ol>
+            <p class="textos1">Ao fazer isso  o <strong>DevTools</strong> será aberto no canto direito ou abaixo do seu monitor com a aba <strong>Elements</strong> ativida e ao passar o mouse sobre os componentes da página o <strong>DevTools</strong> irá mostrar todas as espicificações desta tag e/ou elemento</p>
+            <a href="../img/devToolsElements.png" target="_blank"><img class="img_elements"src="../img/devToolsElements.png" alt="imagem de uma página sendo especionada pelo DevTools" title="Clique para ver a imagem em melhor resolução"/></a>
+            <p class="textos1">A imagem acima resume bem o poder desta ferramenta. Ao passar o mouse sobre o <strong>Inspect Me!</strong> (me inspecione) a aba elements deixa o cursor azul em cima da tag <strong>p</strong> (paragráfo).Podemos obsevar coisas interesantes, como exemplo este elemento possui em sua folha de estilo uma classe chamada aloha</p>
+            <h1 class="texto_DevTools">Console</h1>
+            <p class="texto_introdutorio">Permite o usuário e/ou desenvolvedor testar códigos predefinidos na página; também é possível debugar códigos <strong>JavaScript</strong>, sendo indispensável para qualquer desenvolvedor web. 
+            <h4 class="titulo_topico">Como começar</h4>
+            <ol type="1">
+                <li>Windows</li>
+                    <ol type="I">
+                        <li class="img_windows">Pressione as teclas CTRL + SHIFT + J</li>
+                    </ol>
+                <li>MacBook</li>
+                <ol type="I">
+                    <li class="img_mac">pressione as teclas CMD + SHIFT + J</li>
+                </ol>   
+            </ol>
+            <p class="textos1">Ao fazer isso  o <strong>DevTools</strong> será aberto no canto direito ou abaixo do seu monitor com a aba <strong>Console</strong> ativada. Faça um teste, escreva e pressione a tecla <strong>Enter</strong> no <strong>Console</strong> "alert("Testando a aba Console")";</p>
+            <img class="img_elements"src="../img/img_consoleDevTools.gif" alt="gif da aba console"/>
+            <p class="textos1">Após aprender a linguagem <strong>JavaScript</strong>, essa ferramenta será um ótimo ambiente de desenvolvimento integrado(IDE)</p>
+        </div>
+        <div id="footer">
+                <p class="texto_footer">Site desenvolvido por Jonatha Wagner da Silva Lima&copy;</p>
+		  </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Jonatha Wagner da Silva Lima, Turma B"/>
+		<meta name="description" content="Projeto final"/>
+		<meta name="keywords" content="Projeto final, 3rs da sustentabilidade, Chrome DevTools"/>
+		<meta name="generator" content="Brackets"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+		
+		<title>Reutilizar</title>
+		<script src="../script/trocar.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="../img/3rs.png"/>
+		<link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+	</head>
+    <body>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">▾ Chrome DevTools</button>
+                    <div class="dropdown-content">
+                        <a href="introducaoDevTools.html">Introdução DevTools</a>
+                        <a href="elementsConsole.html">Elements e Console</a>
+                        <a href="sourceNetwork.html">Source e Network</a>
+                    </div>
+                </div>                        
+                <div class="dropdown">
+                    <button class="dropbtn">▾ 3Rs da sustentabilidade</button>
+                        <div class="dropdown-content">
+                            <a href="3rsReduzir.html">Reduzir</a>
+                            <a href="3rsReutilizar.html">Reutilizar</a>
+                            <a href="3rsReciclar.html">Reciclar</a>
+                        </div>
+                </div>                   
+        </nav>
+        <div class="main">
+            <h1 class="texto_3rs">Reutilizar</h1>
+            <p class="texto_introdutorio">Reutilizar é um verbo que diz respeito ao ato de voltar a usar algo. Neste sentido, o termo pode ser usado como sinónimo de reciclar (que consiste em submeter um produto ou um material a um determinado processo para que se possa voltar a utilizar) embora, nos dicionários, este termo não costume aparecer. Ao voltarmos a usar bens ou produtos (isto é, reutilizá-los), estamos a ajudar o planeta. Aquilo que já não se usa mais acaba por ir parar ao balde de lixo (ou contentor), incrementando o nível de resíduos. Por outro lado, quando deitamos algo fora, estamos a incentivar a produção de um novo produto para sua substituição, o que pode aumentar as emissões contaminantes.</p>
+            <table class="tabela_animada">
+            <caption class="descricao_tabela">Vejamos Alguns exemplos</caption>
+                <tr>
+                    <td><img class="imagensTabela" src="../img/garrafa.jpg" alt="Garrafa pet" id="trocarGarrafa"/></td>
+                    <td><img class="imagensTabela"src="../img/roloPapel.png" alt="Rolo de Papel higiênico" id="trocarPapel"/></td>
+                    <td><img class="imagensTabela"src="../img/canudos.jpg" alt="Canudos" id="trocarCanudos"/></td>
+                </tr>
+                <tr>
+                    <td><img class="imagensTabela" src="../img/caixaLeite.jpg" alt="Caixa de leite" id="trocarCaixa"/></td>
+                    <td><img class="imagensTabela"src="../img/poteVidro.jpg" alt="Pote de vidro" id="trocarPote"/></td>
+                    <td><img class="imagensTabela"src="../img/tampa.jpg" alt="Tampas de garrafas pet" id="trocarTampa"/></td>
+                </tr>
+            </table>
+            <div class="empuraBotao">
+                <input class="botao1"type="button" value="Reutilizar" onclick="reutilizavel();" />
+                <input class="botao2"type="button" value="Desfazer" onclick="voltar();" />
+            </div>
+        </div>
+        <div id="footer">
+            <p class="texto_footer">Site desenvolvido por Jonatha Wagner da Silva Lima&copy;</p>
+        </div>
+    </body>
+</html>
